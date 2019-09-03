@@ -1,5 +1,7 @@
 package com.example.tutorial;
 
+import com.example.tutorial.App;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -31,8 +33,8 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testHello()
     {
-        assertTrue( true );
+        assertEquals(App.sayHello("world"), "Hello, world!");
     }
 }
