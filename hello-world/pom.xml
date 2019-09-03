@@ -39,5 +39,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>com.github.ricksbrown</groupId>
+        <artifactId>cowsay</artifactId>
+        <version>1.1.0</version>
+        <classifier>lib</classifier>
+    </dependency>
   </dependencies>
 </project>
