@@ -11,6 +11,7 @@ public class App
     }
 
     public static String sayHello(String who) {
+        if (who == null) return "Hello, stranger!";
         return "Hello, " + who + "!";
     }
 }

@@ -36,5 +36,6 @@ public class AppTest
     public void testHello()
     {
         assertEquals(App.sayHello("world"), "Hello, world!");
+        assertEquals(App.sayHello(null), "Hello, stranger!");
     }
 }
